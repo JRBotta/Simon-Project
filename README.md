@@ -20,7 +20,7 @@ Schematic:
 
 Step 1:
 
-Begin by making sure the Raspberry Pi is powered off.  Connect the LEDs using resistors between them and the GPIO pins on the Raspberry Pi
+Begin by making sure the Raspberry Pi is powered off.  Connect the LEDs using resistors between them and the GPIO pins (the green to pin 2 and the red to pin 3) on the Raspberry Pi
 
 Step 2:
 
@@ -28,7 +28,7 @@ We'll be using a centralized ground, so connect the LEDs to the same column on t
 
 Step 3:
 
-Connect the buttons to the breadboard and wire those to GPIO pins as well
+Connect the buttons to the breadboard and wire those to GPIO pins (the top to pin 14 and the bottom to pin 16 if you want them to match up with the LEDs) as well
 
 Step 4:
 
