@@ -12,6 +12,32 @@ The required components are:
 4. Five male-to-female jumper cables
 5. Two LED lights of different colors
 6. Two push button switches
-  
+
+
+Schematic:
 
 <img width="793" height="534" alt="Screenshot 2025-12-04 183842" src="https://github.com/user-attachments/assets/c65db36e-df22-44ee-9dfc-f4f8532d4399" />
+
+Step 1:
+
+Begin by making sure the Raspberry Pi is powered off.  Connect the LEDs using resistors between them and the GPIO pins on the Raspberry Pi
+
+Step 2:
+
+We'll be using a centralized ground, so connect the LEDs to the same column on the breadboard as the diagram shows
+
+Step 3:
+
+Connect the buttons to the breadboard and wire those to GPIO pins as well
+
+Step 4:
+
+Connect those to the same ground column as the LEDs
+
+Step 5:
+
+Turn on the Raspberry Pi and run the code using the command 'run simon.py'
+
+Completed product:
+
+![20251202_120151](https://github.com/user-attachments/assets/82639fe6-0044-4e0e-bf9c-709b9c4620a9)
